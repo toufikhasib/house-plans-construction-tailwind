@@ -28,6 +28,12 @@
 					extend: {
 						colors: {
 							clifford: "#da373d",
+							primary_color: "#212121",
+							secondry_color: "#494949",
+							text_light: "#737373",
+							arrow_bg: "#ABEF5F",
+							bg_light: "rgba(171, 239, 95, 0.2)",
+							nav: "rgb(115, 115, 115)",
 						},
 						fontFamily: {
 							manrope: ["Manrope", "sans-serif"],
@@ -41,12 +47,95 @@
 		<title>House Plans & Construction</title>
 	</head>
 	<body class="font-manrope">
-		<h2 class="">hello hasiv</h2>
-		<p>
-			git init git add README.md git commit -m "first commit" git branch -M main
-			git remote add origin
-			https://github.com/toufikhasib/house-plans-construction-tailwind.git git
-			push -u origin main
-		</p>
+		<!-- header section start -->
+		<header class="bg-gradient-to-r from-[#F9F7F2] to-[#F9F7F3]">
+			<div class="px-5 sm:px-0 sm:container mx-auto pt-12">
+				<!-- nav section start -->
+				<nav class="">
+					<div class="flex justify-between items-center">
+						<div class="">
+							<div class="flex items-center space-x-3">
+								<div
+									class="flex items-center justify-center bg-arrow_bg rounded-full text-lg w-9 h-9 rotate-45">
+									<i class="fa-solid fa-arrow-up-long"></i>
+								</div>
+								<h2 class="text-3xl font-extrabold text-primary_color">
+									Rinterio
+								</h2>
+							</div>
+						</div>
+						<!-- nav list item start -->
+						<div class="hidden lg:block">
+							<ul
+								class="flex items-center space-x-9 tex-nav text-base font-medium">
+								<li>
+									<a
+										class="text-secondry_colo text-base font-extrabold"
+										href="#"
+										>Home</a
+									>
+								</li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Portfolio</a></li>
+								<li><a href="#">Blogs</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
+						<!-- nav list item end -->
+						<!-- nav card start -->
+						<div class="hidden sm:block">
+							<div class="flex items-center space-x-7">
+								<div class="flex items-center space-x-7">
+									<div
+										class="flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+										<i class="fa-solid fa-magnifying-glass"></i>
+									</div>
+									<div
+										class="flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+										<i class="fa-solid fa-cart-shopping"></i>
+									</div>
+								</div>
+								<div
+									class="flex items-center space-x-3 bg-arrow_bg px-5 py-2 rounded-3xl">
+									<h2 class="text-primary-color text-xl font-extrabold">
+										Book Consult
+									</h2>
+									<div
+										class="flex items-center justify-center bg-primary_color rounded-full text-white text-lg w-9 h-9 rotate-45">
+										<i class="fa-solid fa-arrow-up-long"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- bar card  -->
+						<div
+							class="sm:hidden flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+							<i class="fa-solid fa-bars"></i>
+						</div>
+						<!-- nav card end -->
+					</div>
+				</nav>
+				<!-- nav section end -->
+				<!-- banner section start -->
+				<div class="text-center">
+					<div class="">
+						<img src="./image/banner.png" alt="Banner image" />
+					</div>
+					<div class="">
+						<h1 class="">
+							A barn house of this design has a striking appearance
+						</h1>
+						<p class="">
+							The barn house captivates with its blend of rustic charm and
+							modern sophistication, featuring weathered wood, sleek metal
+							accents, and large windows that flood the space with natural
+							light.
+						</p>
+					</div>
+				</div>
+				<!-- banner section end -->
+			</div>
+		</header>
+		<!-- header section end -->
 	</body>
 </html>
