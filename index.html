@@ -34,6 +34,7 @@
 							arrow_bg: "#ABEF5F",
 							bg_light: "rgba(171, 239, 95, 0.2)",
 							nav: "rgb(115, 115, 115)",
+							banner_btn: "rgba(171, 239, 95, 0.5)",
 						},
 						fontFamily: {
 							manrope: ["Manrope", "sans-serif"],
@@ -117,22 +118,48 @@
 				</nav>
 				<!-- nav section end -->
 				<!-- banner section start -->
-				<div class="text-center">
-					<div class="">
-						<img src="./image/banner.png" alt="Banner image" />
+				<div class="text-center pb-12">
+					<div class="flex justify-center">
+						<img class="md:w-1/2" src="./image/banner.png" alt="Banner image" />
 					</div>
-					<div class="">
-						<h1 class="">
+					<div class="mx-auto sm:w-3/4">
+						<h1
+							class="text-primary_color text-4xl font-semibold sm:text-5xl lg:text-7xl lg:font-extrabold">
 							A barn house of this design has a striking appearance
 						</h1>
-						<p class="">
+						<p class="text-secondry_color text-lg font-semibold mt-8">
 							The barn house captivates with its blend of rustic charm and
 							modern sophistication, featuring weathered wood, sleek metal
 							accents, and large windows that flood the space with natural
 							light.
 						</p>
 					</div>
+					<div
+						class="w-full mx-auto sm:w-60 py-3 mt-8 rounded-[32px] flex justify-center bg-banner_btn">
+						<button class="text-primary_color text-xl font-bold">
+							View Details
+						</button>
+						<i
+							class="fa-solid fa-arrow-up-long flex items-center justify-center bg-arrow_bg rounded-full text-lg w-9 h-9 rotate-45"></i>
+					</div>
 				</div>
+				<!-- banner btn start -->
+				<!-- <div class="flex justify-center mt-8">
+					<div class="bg-banner_btn inline-block px-7 py-2 rounded-[35px]">
+						<div class="flex items-center space-x-1">
+							<div class="">
+								<button class="text-primary_color text-xl font-bold">
+									View Details
+								</button>
+							</div>
+							<div
+								class="flex items-center justify-center bg-arrow_bg rounded-full text-lg w-9 h-9 rotate-45">
+								<i class="fa-solid fa-arrow-up-long"></i>
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<!-- banner btn end -->
 				<!-- banner section end -->
 			</div>
 		</header>
