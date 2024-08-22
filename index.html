@@ -39,7 +39,7 @@
 							manrope: ["Manrope", "sans-serif"],
 						},
 						backgroundImage: {
-							form_bg: "url('./bg.jpj')",
+							"image-bg": "url(./bg.jpg)",
 						},
 					},
 				},
@@ -303,7 +303,7 @@
 			<!-- work process end -->
 			<!-- latest section start -->
 			<section class="container mx-auto px-5 sm:px-16 xl:px-28 bg-[#ffffff]">
-				<div class="py-10 lg:py-24">
+				<div class="pt-10 lg:pt-24 pb-10">
 					<!-- latest headdin text start -->
 					<div class="flex justify-center">
 						<div
@@ -411,10 +411,103 @@
 			</section>
 			<!-- latest section end -->
 			<!-- contct form section start -->
-			<section class="bg-form_bg h-60">
-				<!-- form headding start -->
-				<div class=""></div>
-				<!-- form headding end -->
+			<section
+				class="container mx-auto px-5 sm:px-16 xl:px-28 bg-image-bg bg-no-repeat bg-center bg-cover">
+				<div class="py-10 lg:py-24">
+					<!-- form headding start -->
+					<div class="flex justify-center">
+						<div
+							class="text-secondry_color font-semibold bg-banner_btn flex justify-center items-center space-x-2 w-64 py-2 rounded-3xl">
+							<i class="fa-solid fa-arrow-right"></i>
+							<a class="#" href="#">Let’s Connect</a>
+						</div>
+					</div>
+					<div class="w-full lg:w-4/6 mx-auto text-center mt-8">
+						<h2
+							class="text-primary_color text-3xl lg:text-[40px] font-bold mb-6">
+							Let’s Discuss Next Project
+						</h2>
+						<p class="text-secondry_color text-lg font-medium">
+							The barn house captivates with its blend of rustic charm and
+							modern sophistication, featuring weathered wood, sleek metal
+							accents.
+						</p>
+					</div>
+					<!-- form headding end -->
+					<!-- form cotact start -->
+					<form action="">
+						<div class="mt-8 lg:px-20">
+							<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+								<div class="space-y-5">
+									<!-- form-1  -->
+									<div>
+										<label for="name"></label>
+										<input
+											type="text"
+											name="name"
+											id="name"
+											placeholder="First Name*"
+											class="w-full py-5 px-7 rounded-[64px] border-2" />
+									</div>
+									<!-- form-2 -->
+									<div>
+										<label for="last name"></label>
+										<input
+											type="text"
+											name="last name"
+											id="last name"
+											placeholder="Last Name*"
+											class="w-full py-5 px-7 rounded-[64px] border-2" />
+									</div>
+								</div>
+								<div class="space-y-5">
+									<!-- form-3  -->
+									<div>
+										<label for="number"></label>
+										<input
+											type="number"
+											name="number"
+											id="name"
+											placeholder="Number*"
+											class="w-full py-5 px-7 rounded-[64px]" />
+									</div>
+									<!-- form-4  -->
+									<div>
+										<label for="email"></label>
+										<input
+											type="email"
+											name="email"
+											id="email"
+											placeholder="Email Number*"
+											class="w-full py-5 px-7 rounded-[64px] border-2" />
+									</div>
+								</div>
+							</div>
+							<div class="space-y-5">
+								<label for="message"></label>
+								<textarea
+									name="message"
+									id="message"
+									class="textarea w-full h-32 lg:h-52 py-5 px-7 rounded-[32px] border-2"
+									placeholder="Write your message here"></textarea>
+							</div>
+							<div
+								class="flex items-center justify-center space-x-3 bg-arrow_bg py-4 rounded-[64px] mt-5 border-2">
+								<a
+									class="text-primary-color text-lg xl:text-xl font-extrabold"
+									href="#"
+									>Send Mail</a
+								>
+								<a
+									class="flex items-center justify-center bg-primary_color rounded-full text-white text-lg w-9 h-9 rotate-45"
+									href="#"
+									><i class="fa-solid fa-arrow-up-long"></i
+								></a>
+							</div>
+						</div>
+					</form>
+					<!-- form cotact end -->
+				</div>
 			</section>
 			<!-- contct form section end -->
 		</main>
