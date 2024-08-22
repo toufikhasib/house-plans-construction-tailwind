@@ -27,12 +27,11 @@
 				theme: {
 					extend: {
 						colors: {
-							clifford: "#da373d",
 							primary_color: "#212121",
 							secondry_color: "#494949",
 							text_light: "#737373",
-							arrow_bg: "#ABEF5F",
 							bg_light: "rgba(171, 239, 95, 0.2)",
+							arrow_bg: "#ABEF5F",
 							nav: "rgb(115, 115, 115)",
 							banner_btn: "rgba(171, 239, 95, 0.5)",
 						},
@@ -50,8 +49,8 @@
 	<body class="font-manrope">
 		<!-- header section start -->
 		<header
-			class="px-5 sm:px-0 sm:container mx-auto pt-12 bg-gradient-to-r from-[#F9F7F2] to-[#F9F7F3]">
-			<div class="sm:mx-16 xl:mx-28 mx-auto border-2 border-red-600">
+			class="px-5 sm:container mx-auto pt-12 bg-gradient-to-r from-[#fcfbfb] to-[#fcf7f7]">
+			<div class="sm:px-16 xl:px-28">
 				<!-- nav section start -->
 				<nav class="">
 					<div class="flex justify-between items-center">
@@ -89,11 +88,11 @@
 							<div class="flex items-center space-x-4 xl:space-x-7">
 								<div class="flex items-center space-x-5 xl:space-x-7">
 									<div
-										class="flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+										class="flex items-center justify-center w-11 h-11 rounded-full border-1 bg-[#ffffff] text-[#737373]">
 										<i class="fa-solid fa-magnifying-glass"></i>
 									</div>
 									<div
-										class="flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+										class="flex items-center justify-center w-11 h-11 rounded-full border-1 bg-[#ffffff] text-[#737373]">
 										<i class="fa-solid fa-cart-shopping"></i>
 									</div>
 								</div>
@@ -112,7 +111,7 @@
 						</div>
 						<!-- bar card  -->
 						<div
-							class="sm:hidden flex items-center justify-center w-11 h-11 rounded-full border-2 bg-white text-[#737373]">
+							class="sm:hidden flex items-center justify-center w-11 h-11 rounded-full border-1 bg-white text-[#737373]">
 							<i class="fa-solid fa-bars"></i>
 						</div>
 						<!-- nav card end -->
@@ -151,5 +150,99 @@
 			</div>
 		</header>
 		<!-- header section end -->
+		<!--main section start -->
+		<main class=" ">
+			<!-- about section start -->
+			<section class="bg-[#F4f4f4] container mx-auto px-5 sm:px-16 xl:px-28">
+				<div
+					class="grid grid-cols-1 lg:grid-cols-2 justify-between py-4 lg:py-20 relative">
+					<!-- about contant section start  -->
+					<div class="space-y-7">
+						<div class="absolute top-14 -left-14 hidden lg:block">
+							<img src="./image/Vector.png" alt="vactor img" />
+						</div>
+						<!-- text contant start -->
+						<div class="flex justify-center sm:justify-start">
+							<div
+								class="flex justify-center items-center space-x-2 w-32 text-secondry_color font-semibold bg-white py-2 rounded-3xl">
+								<i class="fa-solid fa-arrow-right"></i>
+								<a href="#">About Us</a>
+							</div>
+						</div>
+						<div class="mt-5">
+							<h2
+								class="text-primary_color text-center sm:text-left text-3xl lg:text-[40px] font-bold mb-6">
+								We design thoughtful, liveable spaces
+							</h2>
+							<p class="text-secondry_color text-lg font-medium">
+								The barn house captivates with its blend of rustic charm and
+								modern sophistication, featuring weathered wood, sleek metal
+								accents.
+							</p>
+						</div>
+						<!-- contan card 1 start -->
+						<div class="flex gap-5 p-6 bg-white rounded-2xl">
+							<img src="./image/commercial.png" alt="card imag" />
+							<div class="space-y-4 w-full md:w-1/2">
+								<h3 class="text-secondry_color text-xl font-bold">
+									Commercial
+								</h3>
+								<p class="text-text_light text-base font-medium">
+									The barn house captivates with its blend of rustic charm and
+									modern.
+								</p>
+							</div>
+						</div>
+						<!-- contan card 1 end -->
+						<!-- contan card 2 start -->
+						<div class="flex gap-5 p-6 bg-white rounded-2xl">
+							<img src="./image/residential.png" alt="card img" />
+							<div class="space-y-4 w-full md:w-1/2">
+								<h3 class="text-secondry_color text-xl font-bold">
+									Residentia
+								</h3>
+								<p class="text-text_light text-base font-medium">
+									The barn house captivates with its blend of rustic charm and
+									modern.
+								</p>
+							</div>
+						</div>
+						<!-- contan card 2 end -->
+						<!-- text contant end -->
+					</div>
+					<!-- about contant section end  -->
+					<!-- img contant start -->
+					<div class="flex justify-end mt-7 lg:mt-0">
+						<img src="./image/Rectangle.png" alt="resturent imgg" />
+					</div>
+					<!-- img contant end -->
+				</div>
+			</section>
+			<!-- about section end -->
+			<!-- work process start -->
+			<section class="container mx-auto px-5 sm:px-16 xl:px-28 bg-[#F4f4f4]">
+				<!-- work headding start -->
+				<div class="flex justify-center">
+					<div
+						class="text-secondry_color font-semibold bg-white flex justify-center items-center space-x-2 w-40 py-2 rounded-3xl">
+						<i class="fa-solid fa-arrow-right"></i>
+						<a class="#" href="#">How we works</a>
+					</div>
+				</div>
+				<div class="w-full lg:w-4/6 mx-auto text-center">
+					<h2 class="text-primary_color text-3xl lg:text-[40px] font-bold mb-6">
+						Our Works Process
+					</h2>
+					<p class="text-secondry_color text-lg font-medium">
+						The barn house captivates with its blend of rustic charm and modern
+						sophistication, featuring weathered wood, sleek metal accents.
+					</p>
+				</div>
+
+				<!-- work headding end -->
+			</section>
+			<!-- work process end -->
+		</main>
+		<!--main section end -->
 	</body>
 </html>
